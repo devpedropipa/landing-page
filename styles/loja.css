@@ -1,0 +1,63 @@
+/* Organização do conteúdo loja */
+div#div-grid {
+    display: grid;
+    grid-template-columns: auto 56%;
+    justify-content: start;
+    position: relative;
+    background: linear-gradient(
+        to top,
+        var(--cor1) var(--backLinearPor),
+        var(--cor5)
+    );
+    padding: var(--paddingConteudo);
+}
+
+/* Posição da imagem */
+div#img-loja {
+    position: relative;
+    padding-left: 1.5em;
+    z-index: 1;
+}
+
+/* Transição de imagens */
+img#img-trans {
+    filter: drop-shadow(-10px 0px 3px rgba(0, 0, 0, 0.4));
+    width: var(--imgLojaTam);
+}
+
+/* Background azul escuro */
+div#img-background {
+    position: absolute;
+    top: -1.5em;
+    left: -14em;
+    padding: 2em 0px;
+    background-color: var(--cor5);
+    border-radius: 100%;
+    width: var(--imgLojaTam);
+    height: var(--imgLojaTam);
+    z-index: -1;
+}
+
+
+/* Texto do conteúdo loja */
+/* INICIO */
+article#loja {
+    margin-top: 2em;
+    text-align: center;
+    color: var(--cor2);
+}
+
+/* Título */
+article#loja > div > h1 {
+    font-size: calc(var(--titulo) - 0.6em);
+}
+
+/* Parágrafo */
+article#loja > div > p {
+    margin: auto;
+    padding: 1.5em 0px;
+    text-align: center;
+    font-size: var(--parTam);
+    width: 600px;
+}
+/* FIM */

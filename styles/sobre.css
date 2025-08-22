@@ -1,0 +1,43 @@
+/* Posição da imagem (NOVAQ Q10) */
+div#img-sobre {
+    text-align: center;
+}
+
+/* Imagem (NOVAQ Q10) */
+div#img-sobre > img#celular {
+    margin: 6em 0px -110px 0px;
+}
+
+/* Conteúdo do sobre */
+main#sobre {
+    position: relative;
+    padding: var(--paddingConteudo);
+    background: linear-gradient(to top, var(--cor4) var(--backLinearPor), transparent);
+    text-align: center;
+    color: var(--cor2);
+    z-index: 1;
+}
+
+/* Título */
+main#sobre > div > h1 {
+    font-size: var(--titulo);
+}
+
+/* Subtítulo */
+main#sobre > div > h2 {
+    margin: auto;
+    padding: 14px 0px;
+    width: 820px;
+    font-size: var(--subtitulo);
+    font-weight: 300;
+}
+
+/* Parágrafo */
+main#sobre > div > p {
+    margin: auto;
+    padding-top: 1em;
+    width: 600px;
+    text-align: justify;
+    text-indent: var(--parRecuo);
+    font-size: var(--parTam);
+}

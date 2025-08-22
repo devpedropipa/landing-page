@@ -1,0 +1,84 @@
+/* Barra de navegação */
+/* INICIO */
+nav#menu {
+    position: fixed;
+    width: 100%;
+    background-color: var(--cor1);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.4);
+    z-index: 2;
+    user-select: none;
+}
+
+/* Lista de navegação */
+ul#opcao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    list-style: none;
+    cursor: default;
+}
+
+div#botao-topico-nav {
+    display: flex;
+    align-items: center;
+    width: 33em;
+    justify-content: space-between;
+}
+
+/* Botões de navegação */
+/* Configuração geral */
+a.smooth-bot-nav {
+    font-size: 18px;
+    color: var(--cor2);
+    text-decoration: none;
+}
+
+a.smooth-bot-nav:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+/* Botão de suporte */
+li#op-sup {
+    margin-right: 0px;
+}
+
+a#link-sup {
+    background-color: var(--cor3);
+    border-radius: 20px;
+    padding: 5px 14px;
+    color: var(--cor2);
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+a#link-sup:hover {
+    background-color: #157fcb;
+}
+
+a#link-sup:active {
+    background-color: #1168a6;
+}
+
+/* Contagem regressiva */
+li#tempo {
+    margin-right: 4px;
+    color: darkgray;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: default;
+}
+
+abbr#verDtEvent {
+    display: inline-block;
+    text-decoration: none;
+}
+
+/* Logo da empresa */
+img#marca {
+    position: relative;
+    top: 3px;
+    width: 150px;
+}
+/* FIM */

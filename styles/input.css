@@ -1,0 +1,38 @@
+/* Caixa de email */
+input#email {
+    padding: 8px;
+    width: 430px;
+    border: none;
+    outline: none;
+    background-color: var(--cor2);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* Botões */
+input#botao-ins, input#botao-loja {
+    padding: 12px;
+    border: none;
+    width: 190px;
+    background-color: var(--cor3);
+    font-size: 1.2em;
+    color: var(--cor2);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    transition: 0.5s;
+}
+
+input#botao-ins:hover, input#botao-loja:hover {
+    cursor: pointer;
+}
+
+input#botao-ins:hover, input#botao-loja:hover {
+    background-color: #157fcb;
+}
+
+input#botao-ins:active, input#botao-loja:active {
+  background-color: #1168A6;
+}
+
+input#botao-ins {
+    margin-top: 1.5em;
+}

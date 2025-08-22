@@ -1,0 +1,283 @@
+/* Monitores e notebooks */
+/* INICIO */
+@media (max-width: 1039px) {
+    img#celular {
+        width: 801px;
+    }
+
+    div#div-grid {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    div#img-loja {
+        position: relative;
+        right: 0.1em;
+        margin: auto;
+    }
+
+    div#img-background {
+        top: 3em;
+        left: -0.5em;
+        width: calc(var(--imgLojaTam) - 50px);
+        height: calc(var(--imgLojaTam) - 100px);
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    img#img-trans {
+        margin: 5em auto 0px auto;
+        width: calc(var(--imgLojaTam) - 100px);
+    }
+}
+
+@media (max-width: 990px) {
+    li#tempo {
+        text-align: right;
+        font-size: 16px;
+    }
+
+    abbr#verDtEvent {
+        width: 95%;
+    }
+}
+
+@media (max-width: 850px) {
+    div#botao-topico-nav {
+        justify-content: flex-start;
+    }
+
+    li#op-sup {
+        margin-left: 2em;
+    }
+
+    li#op-sob,
+    li#op-ins,
+    li#op-loja {
+        position: absolute;
+        top: -10em;
+    }
+}
+/* FIM */
+
+/* Tablets */
+/* INICIO */
+@media (max-width: 835px) {
+    img#celular {
+        width: 701px;
+    }
+
+    main#sobre > div > h1 {
+        font-size: calc(var(--titulo) - 15px);
+    }
+
+    main#sobre > div > h2 {
+        width: 620px;
+    }
+
+    main#inscricao > div > h1 {
+        font-size: calc(var(--titulo) - 1em);
+    }
+
+    article#loja > div > h1 {
+        font-size: calc(var(--titulo) - 1.5em);
+    }
+}
+
+@media (max-width: 818px) {
+    img#celular {
+        width: 601px;
+    }
+
+    img.rd-img {
+        width: calc(35px - 2px);
+    }
+
+    ul#opcao {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    img#img-trans {
+        width: calc(var(--imgLojaTam) - 150px);
+    }
+
+    div#img-background {
+        width: calc(var(--imgLojaTam) - 100px);
+        height: calc(var(--imgLojaTam) - 150px);
+    }
+}
+
+@media (max-width: 774px) {
+    main#inscricao > div > h1 {
+        font-size: calc(var(--titulo) - 1.3em);
+    }
+
+    article#op-loja > div > h1 {
+        font-size: calc(var(--titulo) - 1.3em);
+    }
+}
+
+@media (max-width: 670px) {
+    img#celular {
+        width: 501px;
+    }
+
+    main#sobre > div > h2 {
+        width: 520px;
+        font-size: calc(var(--subtitulo) - 4px);
+    }
+
+    main#sobre > div > p {
+        width: 500px;
+    }
+
+    main#inscricao > div > h1 {
+        font-size: calc(var(--titulo) - 1.6em);
+    }
+
+    main#inscricao > div > p {
+        width: 500px;
+    }
+
+    article#loja > div > h1 {
+        font-size: calc(var(--titulo) - 1.6em);
+    }
+
+    footer#footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 615px) {
+    img#celular {
+        width: 401px;
+    }
+
+    main#sobre > div > h1 {
+        font-size: calc(var(--titulo) - 1.3em);
+    }
+
+    main#sobre > div > h2 {
+        width: 400px;
+    }
+
+    main#sobre > div > p {
+        width: 400px;
+    }
+
+    main#inscricao > div > h1 {
+        font-size: calc(var(--titulo) - 2em);
+    }
+
+    main#inscricao > div > p {
+        width: 400px;
+    }
+
+    article#loja > div > h1 {
+        font-size: calc(var(--titulo) - 2em);
+    }
+
+    article#loja > div > p {
+        width: 400px;
+    }
+
+    img#img-trans {
+        width: calc(var(--imgLojaTam) - 250px);
+    }
+
+    div#img-background {
+        width: calc(var(--imgLojaTam) - 200px);
+        height: calc(var(--imgLojaTam) - 250px);
+    }
+}
+
+@media (max-width: 550px) {
+    li#tempo {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 500px) {
+    li#tempo {
+        position: static;
+        margin: 0px;
+        width: 100%;
+    }
+
+    li#op-ini > a {
+        margin: 0px;
+    }
+}
+
+/* FIM */
+
+/* Celulares */
+@media (min-width: 320px) and (max-width: 499px) {
+    img#marca {
+        width: 85px;
+    }
+
+    a#link-sup {
+        font-size: 12px;
+    }
+
+    li#tempo {
+        font-size: 12px;
+    }
+
+    img#celular {
+        margin-bottom: -120px;
+        width: 301px;
+    }
+
+    main#sobre > div > h1 {
+        font-size: calc(var(--titulo) - 1.8em);
+    }
+
+    main#sobre > div > h2 {
+        width: 300px;
+        font-size: calc(var(--subtitulo) - 0.5em);
+    }
+
+    main#sobre > div > p {
+        font-size: 1em;
+        width: 300px;
+    }
+
+    main#inscricao {
+        position: relative;
+        bottom: 1px;
+    }
+
+    main#inscricao > div > h1 {
+        margin: auto;
+        width: 300px;
+    }
+
+    main#inscricao > div > p {
+        width: 300px;
+        font-size: 1em;
+    }
+
+    input#email {
+        width: 300px;
+    }
+
+    div#div-grid {
+        position: relative;
+        bottom: 2px;
+    }
+
+    article#loja > div > h1 {
+        margin: auto;
+        width: 300px;
+    }
+
+    article#loja > div > p {
+        font-size: 1em;
+        width: 300px;
+    }
+}

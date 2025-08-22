@@ -1,0 +1,43 @@
+/* Importação da fonte (Montserrat) */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Configuração geral */
+* {
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Corpo da página */
+body {
+    background-color: var(--cor1);
+}
+
+img {
+    user-select: none;
+}
+
+span#destaque {
+    color: var(--cor3);
+    font-weight: bold;
+}
+
+/* Variáveis */
+:root {
+    --cor1: #211b15;
+    --cor2: #ececec;
+    --cor3: #1890e7;
+    --cor4: #0e5181;
+    --cor5: #0c456e;
+    --parRecuo: 1.5em;
+    --parTam: 18px;
+    --titulo: 3.5em;
+    --subtitulo: 1.5em;
+    --backLinearPor: 87%;
+    --paddingConteudo: 12em 0px 8em;
+    --imgLojaTam: 400px;
+}

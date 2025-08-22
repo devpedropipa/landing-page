@@ -1,0 +1,26 @@
+/* Conteúdo da Inscrição */
+main#inscricao {
+    background: linear-gradient(
+        to top,
+        var(--cor5) var(--backLinearPor),
+        var(--cor4)
+    );
+    padding: var(--paddingConteudo);
+    text-align: center;
+    color: var(--cor2);
+}
+
+/* Título */
+main#inscricao > div > h1 {
+    font-size: calc(var(--titulo) - 0.6em);
+    padding-top: 10px;
+}
+
+/* Parágrafo */
+main#inscricao > div > p {
+    margin: auto;
+    padding: 1em 0px;
+    width: 600px;
+    text-align: center;
+    font-size: var(--parTam);
+}
