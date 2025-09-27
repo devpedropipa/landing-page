@@ -21,8 +21,10 @@
 
         <script src="scripts/contagem-regressiva.js" defer></script>
         <script src="scripts/img-trans.js" defer></script>
+        <script src="scripts/remove-hash.js" defer></script>
+        <script src="scripts/no-reload.js" defer></script>
     </head>
-    <body>
+    <body id="body">
         <!-- Menu de navegação -->
         <nav id="menu">
             <ul id="opcao">
@@ -105,13 +107,14 @@
                     Receba o acesso exclusivo ao evento de lançamento com
                     detalhes, demonstrações ao vivo e surpresas especiais.
                 </p>
-                <form>
+                <form id="form">
                     <input
                         type="email"
                         name="caixa_de_email"
                         id="email"
                         placeholder="seuemail@gmail.com"
                         required
+                        autocomplete="off"
                     />
                     <br />
                     <input type="submit" value="Inscreva-se" id="botao-ins" />

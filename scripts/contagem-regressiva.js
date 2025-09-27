@@ -1,6 +1,6 @@
 window.addEventListener("load", () => {
     // Data do evento
-    const dtEvent = new Date(2025, 9 - 1, 18, 0, 0, 0); // Altere a data do evento seguindo esse padrão: (Ano, mês - 1, dia, hora, minuto, segundo)
+    const dtEvent = new Date(2025, 11 - 1, 18, 0, 0, 0); // Altere a data do evento seguindo esse padrão: (Ano, mês - 1, dia, hora, minuto, segundo)
     const contReg = document.getElementById("verDtEvent"); // Tag HTML da contagem
     const intervalo = setInterval(AtualizarContagem, 1000); // Intervalo de atualização por segundo
     contReg.title = `${dtEvent.toLocaleDateString(
