@@ -4,7 +4,7 @@
 
 A página contém uma descrição sobre o dispositivo, uma contagem regressiva até a data de lançamento e uma caixa de e-mail para o usuário receber novas novidades do evento.
 
-O objetivo do projeto foi para pôr em prática os meus estudos e conhecimentos sobre o básico de UI/UX design.
+O objetivo do projeto foi colocar em prática os conhecimentos adquiridos sobre os fundamentos de UI/UX design, além de aprimorar minhas habilidades no desenvolvimento web.
 
 ### Tecnologias utilizadas
 
