@@ -4,6 +4,8 @@
 
 A página contém uma descrição sobre o dispositivo, uma contagem regressiva até a data de lançamento e uma caixa de e-mail para o usuário receber novas novidades do evento.
 
+O objetivo do projeto foi para pôr em prática os meus estudos e conhecimentos sobre o básico de UI/UX design.
+
 ### Tecnologias utilizadas
 
 - HTML
