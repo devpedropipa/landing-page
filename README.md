@@ -1,6 +1,6 @@
 # Landing Page
 
-É uma página que divulga o lançamento de uma nova linha de modelo de celular da empresa fictícia NovaQ chamado NovaQ Q10. O evento será mostrado ao vivo no Youtube.
+É uma página que divulga o lançamento de uma nova linha de modelo de celular da empresa fictícia NovaQ, chamado NovaQ Q10. O evento será mostrado ao vivo no Youtube.
 
 A página contém uma descrição sobre o dispositivo, uma contagem regressiva até a data de lançamento e uma caixa de e-mail para o usuário receber novas novidades do evento.
 
